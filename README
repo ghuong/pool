@@ -1,0 +1,58 @@
+Compilation:
+In the cs488 folder, run `premake4 gmake`, then `make`.
+Then cd into cs488/Pool, and run `premake4 gmake`, then `make`.
+To start the application, run `./Pool`.
+
+Manual:
+
+I edited MeshConsolidator and ObjFileDecoder in the shared/cs488-framework,
+which is why I am including the top-level cs488 directory as well.
+
+Controls:
+Arrow keys to fly around.
+Hold right-mouse button and drag mouse to look around.
+Left-click while crosshair is over a ball to shoot it forward.
+Adjust power of shot in ImGui.
+
+Objectives Completed:
+1: The UI consists of camera movement and striking at balls.
+2: A scene depicting a Billiards Game will be modelled.
+3: Static collision detection is used for collisions between balls and the walls
+of the table.
+4: Dynamic collision detection is used for collisions between balls.
+7: Animation will be applied on the balls as they move on the table.
+9: A simple physics engine with operations for:
+   (a) impulse
+   (b) friction
+   (c) gravity
+10: The balls and felt surface will be texture mapped.
+
+Objectives Not Completed:
+5: Sounds will play when striking a ball and during collisions.
+6: Motion blur will emphasize fast movement.
+8: Shadows will be done using Shadow Mapping.
+
+Objectives Partially Completed (please have mercy):
+9: Did not implement gravity
+10: The room, table wood and felt are texture mapped, but not the balls
+
+Borrowed code:
+- function to load bitmap images from http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
+- polyroots.{hpp,cpp} from A4
+- lua glue code from A3
+
+List of All Objectives:
+1: The UI consists of camera movement and striking at balls.
+2: A scene depicting a Billiards Game will be modelled.
+3: Static collision detection is used for collisions between balls and the walls
+of the table.
+4: Dynamic collision detection is used for collisions between balls.
+5: Sounds will play when striking a ball and during collisions.
+6: Motion blur will emphasize fast movement.
+7: Animation will be applied on the balls as they move on the table.
+8: Shadows will be done using Shadow Mapping.
+9: A simple physics engine with operations for:
+   (a) impulse
+   (b) friction
+   (c) gravity
+10: The balls and felt surface will be texture mapped.
