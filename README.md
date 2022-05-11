@@ -1,4 +1,9 @@
-# CS488 Fall 2015 Project Code
+# 3D Pool Graphics and Physics Engine
+
+Built with C++ in OpenGL
+
+![screenshot1](https://raw.githubusercontent.com/ghuong/pool/master/Pool/screenshot.png)
+![screenshot2](https://raw.githubusercontent.com/ghuong/pool/master/Pool/screenshot2.png)
 
 ---
 
