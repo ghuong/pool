@@ -3,6 +3,7 @@
 Built with C++ in OpenGL
 
 ![screenshot1](https://raw.githubusercontent.com/ghuong/pool/master/Pool/screenshot.png)
+
 ![screenshot2](https://raw.githubusercontent.com/ghuong/pool/master/Pool/screenshot2.png)
 
 ---
